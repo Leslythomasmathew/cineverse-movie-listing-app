@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVerse</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+  <div class="app">
+    <h1>CineVerse</h1>
+
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Search for movies...">
+      <div id="search-btn" class="search-btn-container" title="Search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f9d3b4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Back to Home status bar -->
+    <div class="search-status" id="search-status">
+      <button id="back-home-btn" class="back-home-btn">← Back to Home</button>
+    </div>
+
+    <div class="container" id="movies-container">
+      <!-- Movie cards will be loaded here -->
+    </div>
+  </div>
+
+  <!-- Movie Details Modal -->
+  <div id="details-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="close-modal">&times;</span>
+      <div id="modal-details-body">
+        <!-- Loaded dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=14"></script>
+</body>
+</html>
