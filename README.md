@@ -12,8 +12,4 @@ CineVerse is a clean, dark-themed movie search library application built using H
 
 ## 🚀 How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Leslythomasmathew/cineverse-movie-listing-app.git
-   ```
-2. Open `index.html` in your web browser, or host it locally using a development server (e.g., Live Server or `npx http-server`).
+Live Link:https://cineverse-movie-listing-app.vercel.app/
